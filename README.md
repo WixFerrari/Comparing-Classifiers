@@ -1,3 +1,7 @@
+# Business Understanding
+The goal of this project is to increase the efficiency of the advertising campaign for the deposit descriptions and to see which model can best predict the success of the marketing campaigns. The four models chosen for this experiment are Logistic Regression, K-Nearest Neighbor, Decision Tree, and Support Vector Machine(SVM). The dataset provided represents 17 marketing campaigns that occurred between May 2008 and November 2010. In total, there are 79,354 contacts.
+
+
 # Conclusion:
 ## Test/Training Accuracy Results
 Prior to improving the model, Decision Tree had the highest training accuracy at 0.9954 but also the lowest test accuracy at 0.8375. This would suggest overfitting could be occuring in the model. The SVM model had the longest training time by a wide margin at 27.22s whereas Log Regression was at 2.58s and the others were at 0.01 and 0.32. This could be because the algorithm of the vector. Logistric Regression had the highest test accuracy at 0.8963 with SVM close behind at 0.8948.
@@ -32,3 +36,8 @@ Best Parameters for Linear SVC: {'C': 0.01}
 SVC Score with Grid Search: 0.8966131186015458
 
 The ROC curves for each method also changed: Log Regression regressed to 0.76, KNN had an AUC of 0.76, Decision tree improved to 0.78, and SVM also improved to 0.76. The shape looked alot better for all models. Overall, it seems like Decision Tree produced the best outputs. I personally would still use Logistic Regression due to potential overfitting.
+
+# Next Steps/Recommendations:
+The following step would be to fix the grid search SVC code so it stops failing to correlate the matrix. That is the reason I ended up using linear SVC. After that, the next step would be to find more ways to potentially increase the accuracy of the models.
+
+Any help on how to fix the failing to correlate issue or how to increase the accuracy of the models even more would be very much appreciated.
