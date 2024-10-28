@@ -1,4 +1,4 @@
-### Conclusion:
+# Conclusion:
 ## Test/Training Accuracy Results
 Prior to improving the model, Decision Tree had the highest training accuracy at 0.9954 but also the lowest test accuracy at 0.8375. This would suggest overfitting could be occuring in the model. The SVM model had the longest training time by a wide margin at 27.22s whereas Log Regression was at 2.58s and the others were at 0.01 and 0.32. This could be because the algorithm of the vector. Logistric Regression had the highest test accuracy at 0.8963 with SVM close behind at 0.8948.
 
